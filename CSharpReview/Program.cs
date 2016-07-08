@@ -38,7 +38,7 @@ namespace CSharpReview
 
         }
         static void Main(string[] args)
-        {
+        {   
 
             checked {
                 //checked can be written as a block. THis is used to checkc overflow airthmatic
