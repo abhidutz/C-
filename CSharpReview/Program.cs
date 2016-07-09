@@ -38,10 +38,18 @@ namespace CSharpReview
 
         }
         static void Main(string[] args)
-        {   
+        {
+            string str = "";
+            if (str is object && str is string)// type of object checkcing
+            { //do somehting
+            }
+
+
+
 
             checked {
                 //checked can be written as a block. THis is used to checkc overflow airthmatic
+                //this can be turned off in performance critical taks
                     }
             Console.WriteLine(unchecked(2147483647 + 10));
             Console.ReadLine();
@@ -50,6 +58,14 @@ namespace CSharpReview
             //null coaleace operator
             int? a = 3;
             int y = a ?? 0;  // cannot simply assign non nullable type to nuallable type
+
+
+
+
+
+
+
+
 
 
                     }
